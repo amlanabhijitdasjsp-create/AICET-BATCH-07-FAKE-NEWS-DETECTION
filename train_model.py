@@ -7,7 +7,7 @@ from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score
 
 # Load data
-data = pd.read_csv("d:/Fake News/anpr_data.csv")
+data = pd.read_csv("d:/fn/DATASET.csv")
 
 # Remove empty rows
 data = data.dropna(subset=["text", "label"])
